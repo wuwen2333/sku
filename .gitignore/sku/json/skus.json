@@ -1,0 +1,124 @@
+{
+	"skus": [
+		{
+			"attrs": {
+				"color": "Red",
+				"size": "XL",
+				"pattern": "Normal"
+			},
+			"instock": true
+		},
+		{
+			"attrs": {
+				"color": "Red",
+				"size": "M",
+				"pattern": "Normal"
+			},
+			"instock": true
+		},
+		{
+			"attrs": {
+				"color": "Red",
+				"size": "XL",
+				"pattern": "Wide"
+			},
+			"instock": true
+		},
+		{
+			"attrs": {
+				"color": "Red",
+				"size": "XL",
+				"pattern": "Wide"
+			},
+			"instock": true
+		},
+		{
+			"attrs": {
+				"color": "Blue",
+				"size": "XL",
+				"pattern": "Wide"
+			},
+			"instock": true
+		},
+		{
+			"attrs": {
+				"color": "Blue",
+				"size": "XL",
+				"pattern": "Normal"
+			},
+			"instock": true
+		},
+		{
+			"attrs": {
+				"color": "Green",
+				"size": "XL",
+				"pattern": "Normal"
+			},
+			"instock": true
+		},
+		{
+			"attrs": {
+				"color": "Green",
+				"size": "M",
+				"pattern": "Normal"
+			},
+			"instock": true
+		},
+		{
+			"attrs": {
+				"color": "Green",
+				"size": "XL",
+				"pattern": "Normal"
+			},
+			"instock": false
+		},
+		{
+			"attrs": {
+				"color": "Blue",
+				"size": "XL",
+				"pattern": "Normal"
+			},
+			"instock": false
+		},
+		{
+			"attrs": {
+				"color": "Blue",
+				"size": "XL",
+				"pattern": "Normal"
+			},
+			"instock": false
+		},
+		{
+			"attrs": {
+				"color": "Blue",
+				"size": "XL",
+				"pattern": "Normal"
+			},
+			"instock": false
+		},
+		{
+			"attrs": {
+				"color": "Red",
+				"size": "M",
+				"pattern": "Normal"
+			},
+			"instock": false
+		},
+		{
+			"attrs": {
+				"color": "Red",
+				"size": "XL",
+				"pattern": "Normal"
+			},
+			"instock": false
+		},
+		{
+			"attrs": {
+				"color": "Red",
+				"size": "XL",
+				"pattern": "Wide"
+			},
+			"instock": false
+		}
+	]
+}

@@ -1,0 +1,107 @@
+/**
+ * 么么嗖 笔试题 sku选择
+ * @authors Wuwen (540016845@qq.com)
+ * @date    2017-07-19 
+ */
+
+/* common */
+* { margin: 0; padding: 0; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-text-size-adjust: none; -webkit-user-select: none; -ms-user-select: none; user-select: none; font-family: Arial, 'Microsoft YaHei' }
+img { vertical-align: top; border: 0 }
+input, textarea { -webkit-user-select: text; -ms-user-select: text; user-select: text; -webkit-appearance: none }
+input:focus, select:focus, textarea:focus, button:focus { outline: 0 }
+input[type="text"], input[type="password"], input[type="search"], input[type="tel"], input[type="number"], input[type="email"], input[type="url"], textarea { -webkit-appearance: none; border: 1px solid; -webkit-border-radius: 0; border-radius: 0 }
+input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none }
+a { text-decoration: none; -webkit-touch-callout: none }
+em, i { font-style: normal }
+li { list-style: none }
+
+/* page */
+html, body { height: 100% }
+html { font-size: 10px }
+
+.sku-wrap{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background-color: rgba(0,0,0,.8);
+}
+.sku-wrap .choose-sku{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #fff;
+}
+.img-wrap{
+	position: relative;
+	overflow: hidden;
+}
+.img-wrap:after{
+	content: "";
+	width: 100%;
+	padding-top: 100%;
+	background-color: #aaa;
+}
+.img-wrap img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.spec-preview{
+	padding: 10px;
+}
+.spec-wrap{
+	padding: 10px;
+}
+.spec-wrap .item{
+	margin-top: 10px;
+}
+.spec-wrap .item .tit{
+	font-size: 1.2rem;
+	line-height: 24px;
+}
+.spec-wrap .item ul{
+	font-size: 0;
+}
+.spec-wrap .item ul li{
+	position: relative;
+	display: inline-block;
+	margin-right: 10px;
+	padding: 0 10px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 1.2rem;
+	border: 1px solid #e8e8e8;
+	border-radius: 4px;
+	color: #333;
+}
+.spec-wrap .item ul li.disable{
+	color: #666;
+	background-color: #aaa;
+}
+.spec-wrap .item ul li.active{
+	color: #ff5e5e;
+	border-color: #ff5e5e;
+}
+.spec-wrap .item ul li.active:after{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 0;
+	height: 0;
+	border-width: 4px;
+	border-style: solid;
+	border-color: #ff5e5e #ff5e5e transparent transparent;
+}
+.sku-wrap .choose-sku .confirm{
+	display: block;
+	padding: 10px 0;
+	text-align: center;
+	font-size: 1.4rem;
+	color: #fff;
+	background-color: #ff5e5e;
+}
+
+
